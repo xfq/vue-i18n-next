@@ -15,7 +15,7 @@ importers:
       '@rollup/plugin-commonjs': ^21.0.0
       '@rollup/plugin-json': ^4.1.0
       '@rollup/plugin-node-resolve': ^13.0.0
-      '@rollup/plugin-replace': ^3.0.0
+      '@rollup/plugin-replace': ^4.0.0
       '@secretlint/secretlint-rule-preset-recommend': ^3.1.0
       '@sucrase/jest-plugin': ^2.1.0
       '@textlint-rule/textlint-rule-no-unmatched-pair': ^1.0.7
@@ -92,7 +92,7 @@ importers:
       '@rollup/plugin-commonjs': 21.0.1_rollup@2.66.0
       '@rollup/plugin-json': 4.1.0_rollup@2.66.0
       '@rollup/plugin-node-resolve': 13.1.3_rollup@2.66.0
-      '@rollup/plugin-replace': 3.0.1_rollup@2.66.0
+      '@rollup/plugin-replace': 4.0.0_rollup@2.66.0
       '@secretlint/secretlint-rule-preset-recommend': 3.3.0
       '@sucrase/jest-plugin': 2.2.0
       '@textlint-rule/textlint-rule-no-unmatched-pair': 1.0.8
@@ -1782,8 +1782,8 @@ packages:
       rollup: 2.66.0
     dev: true
 
-  /@rollup/plugin-replace/3.0.1_rollup@2.66.0:
-    resolution: {integrity: sha512-989J5oRzf3mm0pO/0djTijdfEh9U3n63BIXN5X7T4U9BP+fN4oxQ6DvDuBvFaHA6scaHQRclqmKQEkBhB7k7Hg==}
+  /@rollup/plugin-replace/4.0.0_rollup@2.66.0:
+    resolution: {integrity: sha512-+rumQFiaNac9y64OHtkHGmdjm7us9bo1PlbgQfdihQtuNxzjpaB064HbRnewUOggLQxVCCyINfStkgmBeQpv1g==}
     peerDependencies:
       rollup: ^1.20.0 || ^2.0.0
     dependencies:
