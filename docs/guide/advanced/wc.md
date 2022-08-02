@@ -4,7 +4,7 @@
 :new: 9.2+
 :::
 
-Vue 3.2 later, we can use the WebComponents as described in the [official documentation](https://v3.vuejs.org/guide/web-components.html).
+Vue 3.2 later, we can use the Web Components as described in the [official documentation](https://vuejs.org/guide/extras/web-components.html).
 
 This will support the use of Vue I18n in Web Components starting with Vue I18n v9.2.
 
@@ -81,7 +81,7 @@ import I18nHost from './components/I18nHost.ce.vue'
 
 const I18nHostElement = defineCustomElement(I18nHost)
 
-export { I18nHostElement }  
+export { I18nHostElement }
 ```
 
 The following `useI18n` implements and exports Web Components to:
